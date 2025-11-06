@@ -19,7 +19,7 @@ app.get('/', async (req, res) => {
     
     if(!findUser) new User(user).save();
 
-    return res.sendFile("r:/Refactoring/Cohort1.0/Week-9/Backend/index.html");
+    res.send("<h1>Hello</h1>");
 })
 
 app.listen(4000);
