@@ -24,9 +24,9 @@ app.get('/', async (req, res) => {
 
 app.get('/name', (req, res) => {
     res.send(`
-        <h1> Rishabh Srivastava </h1>
+        <h1> Rishabh Srivastava and family. </h1>
         <p> Currently I am learning Deployement.</p>
     `);
-})
+});
 
 app.listen(4000);
