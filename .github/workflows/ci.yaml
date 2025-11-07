@@ -15,10 +15,10 @@ jobs:
 
     - name: SSH into the AWS instance machine and deploy the code there
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY}}
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       run: |
         echo "$SSH_PRIVATE_KEY" > keyfile
         chmod 400 keyfile
         mkdir -p ~/.ssh
         cp known_hosts ~/.ssh/known_hosts
-        ssh -t -i keyfile ubuntu@ec2-51-20-55-68.eu-north-1.compute.amazonaws.com "sudo bash ./deploy.sh" 
+        ssh -t -i keyfile ubuntu@ec2-51-20-55-68.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh" 
