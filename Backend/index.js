@@ -25,7 +25,7 @@ app.get('/', async (req, res) => {
 app.get('/name', (req, res) => {
     res.send(`
         <h1> I love you Glory. And 2 days to go for your birthday. </h1>
-        <p> Currently I am learning Deployement.</p>
+        <p> How are feeling? Are you excited! </p>
     `);
 });
 
