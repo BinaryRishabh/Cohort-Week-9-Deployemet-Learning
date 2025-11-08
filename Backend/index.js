@@ -22,7 +22,7 @@ app.get('/', async (req, res) => {
     res.send("<h1>Hello</h1>");
 })
 
-app.get('/name', (req, res) => {
+app.get('/surprise', (req, res) => {
     res.send(`
         <h1> I love you Glory. And 2 days to go for your birthday. </h1>
         <p> How are feeling? Are you excited! </p>
