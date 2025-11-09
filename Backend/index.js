@@ -29,9 +29,9 @@ app.get('/print', (req, res) => {
     `);
 });
 
-app.get('/auth', (req, res) => {
+app.get('/authenticate', (req, res) => {
     res.send(`<h1>
-        Rishabh you have successfully signned in!   
+        Rishabh and BUDHHUUU you have successfully signned in together!
     </h1>`)
 })
 
