@@ -29,4 +29,10 @@ app.get('/print', (req, res) => {
     `);
 });
 
+app.get('/auth', (req, res) => {
+    res.send(`<h1>
+        Rishabh you have successfully aignned in!
+    </h1>`)
+})
+
 app.listen(4000);
