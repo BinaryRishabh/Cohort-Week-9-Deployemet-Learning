@@ -31,7 +31,7 @@ app.get('/print', (req, res) => {
 
 app.get('/auth', (req, res) => {
     res.send(`<h1>
-        Rishabh you have successfully aignned in!
+        Rishabh you have successfully signned in!   
     </h1>`)
 })
 
