@@ -29,4 +29,6 @@ app.get('/call', (req, res) => {
     `);
 });
 
+console.log("Server started");
+
 app.listen(4000);
