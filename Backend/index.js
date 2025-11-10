@@ -24,7 +24,7 @@ app.get('/', async (req, res) => {
 
 app.get('/print', (req, res) => {
     res.send(`
-        <h1> Hello everyone. </h1>
+        <h1> Today is BUDHUUU's birthday! </h1>
         <p> How are feeling? Are you excited! </p>
     `);
 });
